@@ -28,7 +28,7 @@ public class DateUtils {
 			time = sdf.format(new Date());
 			break;
 		case 2:
-			sdf = new SimpleDateFormat("yyyy年 MM月dd日 hh:mm");
+			sdf = new SimpleDateFormat("yyyy年MM月dd日 hh:mm");
 			time = sdf.format(new Date());
 			break;
 		case 3:
